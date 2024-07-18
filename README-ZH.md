@@ -23,6 +23,9 @@
 <br/>
 
 <div align="center">
+  <img alt="preview1.gif" src="https://raw.githubusercontent.com/amoshuke/flutter_mosaic/main/README/preview1.gif" />
+
+  [[flutter_mosaic/example][]]
 
 </div>
 
