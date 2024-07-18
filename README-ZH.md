@@ -123,6 +123,19 @@ Mosaic(
 ## 贡献者 ✨  
 
 <!-- readme: contributors -start -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/AmosHuKe">
+                    <img src="https://avatars.githubusercontent.com/u/32262985?v=4" width="100;" alt="AmosHuKe"/>
+                    <br />
+                    <sub><b>AmosHuKe</b></sub>
+                </a>
+            </td>
+		</tr>
+	<tbody>
+</table>
 <!-- readme: contributors -end -->
 
 
