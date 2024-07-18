@@ -2,6 +2,7 @@ name: contributors
 run-name: "Contributors"
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
