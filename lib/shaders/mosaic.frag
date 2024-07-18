@@ -6,7 +6,7 @@ precision highp float;
 
 uniform vec2 uMosaicSize;   // 马赛克块的大小
 uniform float uSampleCount; // 采样数量
-uniform vec2 uSize;         // 当前尺寸
+uniform vec2 uSize;         // 输入尺寸
 uniform sampler2D uTexture; // 输入纹理
 
 out vec4 fragColor;
