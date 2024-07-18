@@ -42,7 +42,7 @@
 
 - [Usage](#usage-)
 
-  - [Mosaic][#mosaic-]
+  - [Mosaic](#mosaic-)
 
 - [Contributors](#contributors-)
 
