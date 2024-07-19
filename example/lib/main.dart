@@ -69,6 +69,20 @@ class _DemoState extends State<Demo> {
     });
   }
 
+  List<Widget> buildSampleCountWidget() {
+    List<Widget> widgets = [];
+    for (SampleCount item in SampleCount.values) {
+      widgets.add(
+        FilterChip(
+          label: Text(item.name),
+          selected: sampleCount == item,
+          onSelected: (_) => onChangedMosaicSampleCount(item),
+        ),
+      );
+    }
+    return widgets;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -245,32 +259,7 @@ class _DemoState extends State<Demo> {
                       Wrap(
                         spacing: 12,
                         runSpacing: 12,
-                        children: [
-                          FilterChip(
-                            label: const Text('s1'),
-                            selected: sampleCount == SampleCount.s1,
-                            onSelected: (_) =>
-                                onChangedMosaicSampleCount(SampleCount.s1),
-                          ),
-                          FilterChip(
-                            label: const Text('s2'),
-                            selected: sampleCount == SampleCount.s2,
-                            onSelected: (_) =>
-                                onChangedMosaicSampleCount(SampleCount.s2),
-                          ),
-                          FilterChip(
-                            label: const Text('s4'),
-                            selected: sampleCount == SampleCount.s4,
-                            onSelected: (_) =>
-                                onChangedMosaicSampleCount(SampleCount.s4),
-                          ),
-                          FilterChip(
-                            label: const Text('s8'),
-                            selected: sampleCount == SampleCount.s8,
-                            onSelected: (_) =>
-                                onChangedMosaicSampleCount(SampleCount.s8),
-                          ),
-                        ],
+                        children: buildSampleCountWidget(),
                       ),
                     ],
                   ),
