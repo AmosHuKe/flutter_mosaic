@@ -1,6 +1,6 @@
 name: flutter_mosaic
-description: "Easy mosaic effect for Flutter! Add a mosaic effect to any widget."
-version: 0.0.1
+description: 'Easy mosaic effect for Flutter, add a mosaic effect to any widget.'
+version: 0.0.2
 homepage: https://github.com/amoshuke/flutter_mosaic
 repository: https://github.com/amoshuke/flutter_mosaic
 issue_tracker: https://github.com/amoshuke/flutter_mosaic/issues
@@ -22,3 +22,13 @@ dev_dependencies:
 flutter:
   shaders:
     - packages/flutter_mosaic/shaders/mosaic.frag
+
+topics:
+  - widget
+  - shader
+  - pixel
+  - mosaic
+
+screenshots:
+  - description: 'Example Preview GIF'
+    path: README/preview1.gif
