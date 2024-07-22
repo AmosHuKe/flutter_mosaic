@@ -82,7 +82,7 @@ void main() {
     await tester.pump(const Duration(milliseconds: 100));
 
     /// flutter test --update-goldens
-    expectLater(
+    await expectLater(
       find.byKey(mosaicWidgetKey),
       matchesGoldenFile('goldens/mosaic_sampleCount.s2.png'),
     );
@@ -98,7 +98,7 @@ void main() {
     await tester.pump(const Duration(milliseconds: 100));
 
     /// flutter test --update-goldens
-    expectLater(
+    await expectLater(
       find.byKey(mosaicWidgetKey),
       matchesGoldenFile('goldens/mosaic_sampleCount.s4.png'),
     );
@@ -114,7 +114,7 @@ void main() {
     await tester.pump(const Duration(milliseconds: 100));
 
     /// flutter test --update-goldens
-    expectLater(
+    await expectLater(
       find.byKey(mosaicWidgetKey),
       matchesGoldenFile('goldens/mosaic_sampleCount.s8.png'),
     );
