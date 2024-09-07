@@ -1,7 +1,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/amoshuke/flutter_mosaic?style=social&logo=github&logoColor=1F2328&label=stars)](https://github.com/amoshuke/flutter_mosaic)
 [![Pub.dev likes](https://img.shields.io/pub/likes/flutter_mosaic?style=social&logo=flutter&logoColor=168AFD&label=likes)](https://pub.dev/packages/flutter_mosaic)
 
-📓 语言：[English](README.md) | 中文
+📓 语言：[English](README.md) | 中文  
+🎁 查看：[在线示例][]  
 
 <br/><br/>
 
@@ -25,7 +26,7 @@
 <div align="center">
   <img alt="preview1.gif" src="https://raw.githubusercontent.com/amoshuke/flutter_mosaic/main/README/preview1.gif" />
 
-  [[flutter_mosaic/example][]]
+  查看 [在线示例][]
 
 </div>
 
@@ -147,4 +148,5 @@ Mosaic(
 © AmosHuKe
 
 
+[在线示例]: https://amoshuke.github.io/flutter_mosaic
 [flutter_mosaic/example]: https://github.com/amoshuke/flutter_mosaic/tree/main/example

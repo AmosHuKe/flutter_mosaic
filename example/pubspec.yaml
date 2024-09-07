@@ -1,5 +1,5 @@
-name: example
-description: "A new Flutter project."
+name: flutter_mosaic_example
+description: Flutter Mosaic - Examples of the flutter_mosaic package.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -33,10 +33,6 @@ dependencies:
 
   flutter_mosaic:
     path: ..
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.6
 
 dev_dependencies:
   flutter_test:

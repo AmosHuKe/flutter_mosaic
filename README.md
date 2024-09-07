@@ -2,6 +2,7 @@
 [![Pub.dev likes](https://img.shields.io/pub/likes/flutter_mosaic?style=social&logo=flutter&logoColor=168AFD&label=likes)](https://pub.dev/packages/flutter_mosaic)
 
 📓 Language: English | [中文](README-ZH.md)  
+🎁 Check out the [Live Demo][].  
 
 <br/><br/>
 
@@ -25,7 +26,7 @@
 <div align="center">
   <img alt="preview1.gif" src="https://raw.githubusercontent.com/amoshuke/flutter_mosaic/main/README/preview1.gif" />
 
-  [[flutter_mosaic/example][]]
+  Check out the [Live Demo][]
 
 </div>
 
@@ -147,4 +148,5 @@ Open sourced under the MIT license.
 © AmosHuKe
 
 
+[Live Demo]: https://amoshuke.github.io/flutter_mosaic
 [flutter_mosaic/example]: https://github.com/amoshuke/flutter_mosaic/tree/main/example
