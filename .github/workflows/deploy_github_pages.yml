@@ -22,7 +22,6 @@ jobs:
         run: |
           flutter --version
           flutter pub get
-          cd example
       - name: Check Dart code formatting
         run: |
           dart format . -o none --set-exit-if-changed
@@ -42,9 +41,9 @@ jobs:
         run: |
           flutter --version
           flutter pub get
-          cd example
       - name: Build web (CanvasKit)
         run: |
+          cd example
           flutter build web --web-renderer canvaskit --release
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
