@@ -14,11 +14,10 @@
   <a href="https://pub.dev/packages/flutter_mosaic/score"><img src="https://img.shields.io/pub/points/flutter_mosaic?color=2E8B57&label=%E5%88%86%E6%95%B0&logo=flutter" alt="pub points" /></a>
   <a href="https://www.codefactor.io/repository/github/amoshuke/flutter_mosaic"><img src="https://img.shields.io/codefactor/grade/github/amoshuke/flutter_mosaic?color=0CAB6B&label=%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F&logo=codefactor" alt="CodeFactor" /></a>
   <a href="https://codecov.io/gh/amoshuke/flutter_mosaic"><img src="https://img.shields.io/codecov/c/github/amoshuke/flutter_mosaic?label=%E6%B5%8B%E8%AF%95%E8%A6%86%E7%9B%96&logo=codecov" alt="codecov" /></a>
-  <a href="https://pub.dev/packages/flutter_mosaic"><img src="https://img.shields.io/github/languages/top/amoshuke/flutter_mosaic?color=00B4AB" alt="top language" /></a>
 </p>
 
 <p align="center">
-  <strong >Flutter 的简易马赛克效果！</strong>
+  <strong >Flutter 简易马赛克效果！</strong>
 </p>
 
 <br/>
@@ -32,7 +31,7 @@
 
 <br/>
 
-## Table of contents 🪄
+## 目录 🪄
 
 <sub>
 

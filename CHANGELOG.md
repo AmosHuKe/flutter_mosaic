@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.3
+
+- Update Example (README).
+
 ## 0.0.2
 
 - Update Example.

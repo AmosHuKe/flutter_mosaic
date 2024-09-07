@@ -14,11 +14,10 @@
   <a href="https://pub.dev/packages/flutter_mosaic/score"><img src="https://img.shields.io/pub/points/flutter_mosaic?color=2E8B57&logo=flutter" alt="pub points" /></a>
   <a href="https://www.codefactor.io/repository/github/amoshuke/flutter_mosaic"><img src="https://img.shields.io/codefactor/grade/github/amoshuke/flutter_mosaic?color=0CAB6B&logo=codefactor" alt="CodeFactor" /></a>
   <a href="https://codecov.io/gh/amoshuke/flutter_mosaic"><img src="https://img.shields.io/codecov/c/github/amoshuke/flutter_mosaic?label=coverage&logo=codecov" alt="codecov" /></a>
-  <a href="https://pub.dev/packages/flutter_mosaic"><img src="https://img.shields.io/github/languages/top/amoshuke/flutter_mosaic?color=00B4AB" alt="top language" /></a>
 </p>
 
 <p align="center">
-  <strong >Easy mosaic effect for Flutter!</strong>
+  <strong>Easy mosaic effect for Flutter!</strong>
 </p>
 
 <br/>
