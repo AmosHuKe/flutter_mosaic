@@ -4,7 +4,6 @@
 _flutter.loader.load({
   config: {
     assetBase: '/flutter_mosaic/',
-    renderer: 'canvaskit',
     canvasKitVariant: 'full',
     canvasKitBaseUrl: '/flutter_mosaic/canvaskit/'
   },
