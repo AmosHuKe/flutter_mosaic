@@ -1,5 +1,5 @@
 /// Easy mosaic effect for Flutter, add a mosaic effect to any widget.
-library flutter_mosaic;
+library;
 
 export 'src/enums.dart';
 export 'src/flutter_mosaic.dart';
