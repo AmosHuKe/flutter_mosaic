@@ -20803,7 +20803,7 @@ A.a7o.prototype={
 $1(a){var s=A.cU().b
 if(s==null)s=null
 else{s=s.canvasKitBaseUrl
-if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/36335019a8eab588c3c2ea783c618d90505be233/":s)+a},
+if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/a18df97ca57a249df5d8d68cd0820600223ce262/":s)+a},
 $S:92}
 A.zz.prototype={
 cz(){B.c.a_(this.a.a.save())},
