@@ -16,12 +16,20 @@ on:
       - '**.md'
       - 'example/**'
 
+env:
+  repo_sparse_checkout: |
+    /*
+    !/example/
+
 jobs:
   code-analysis:
     name: "Code Analysis :: Flutter (latest)"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: ${{ env.repo_sparse_checkout }}
+          sparse-checkout-cone-mode: false
       - uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
@@ -49,6 +57,9 @@ jobs:
         flutter-version: ['3.7.0', '']
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: ${{ env.repo_sparse_checkout }}
+          sparse-checkout-cone-mode: false
       - uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
@@ -63,11 +74,15 @@ jobs:
   upload-test-coverage:
     needs: [test]
     if: |
-      github.event_name == 'push'
+      github.repository == 'AmosHuKe/flutter_mosaic'
+      && github.event_name == 'push'
       && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: ${{ env.repo_sparse_checkout }}
+          sparse-checkout-cone-mode: false
       - uses: subosito/flutter-action@v2
         with:
           channel: 'stable'

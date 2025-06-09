@@ -1,4 +1,4 @@
-# example
+# flutter_mosaic_example
 
 A new Flutter project.
 
