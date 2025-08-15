@@ -15,7 +15,6 @@ class DemoApp extends StatelessWidget {
       title: 'Flutter Mosaic Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        useMaterial3: true,
       ),
       home: const Demo(title: 'Flutter Mosaic Demo'),
     );
