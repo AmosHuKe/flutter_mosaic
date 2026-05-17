@@ -9,13 +9,16 @@ on:
     paths-ignore:
       - '**.md'
 
+# Disable permissions for all of the available permissions
+permissions: {}
+
 jobs:
 
   code-analysis:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: subosito/flutter-action@v2
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
         with:
           channel: 'stable'
       - name: Prepare dependencies
@@ -31,10 +34,13 @@ jobs:
 
   deploy:
     needs: [code-analysis]
+    if: github.repository == 'AmosHuKe/flutter_mosaic'
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: subosito/flutter-action@v2
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
         with:
           channel: 'stable'
       - name: Prepare dependencies
@@ -46,7 +52,7 @@ jobs:
           cd example
           flutter build web --wasm --release
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f
         with:
           branch: 'github-pages'
           folder: 'example/build/web'

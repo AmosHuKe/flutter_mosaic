@@ -16,6 +16,9 @@ on:
       - '**.md'
       - 'example/**'
 
+# Disable permissions for all of the available permissions
+permissions: {}
+
 env:
   repo_sparse_checkout: |
     /*
@@ -26,11 +29,11 @@ jobs:
     name: "Code Analysis :: Flutter (latest)"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           sparse-checkout: ${{ env.repo_sparse_checkout }}
           sparse-checkout-cone-mode: false
-      - uses: subosito/flutter-action@v2
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
         with:
           channel: 'stable'
       - name: Prepare dependencies
@@ -56,11 +59,11 @@ jobs:
       matrix:
         flutter-version: ['3.7.0', '']
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           sparse-checkout: ${{ env.repo_sparse_checkout }}
           sparse-checkout-cone-mode: false
-      - uses: subosito/flutter-action@v2
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
         with:
           channel: 'stable'
           flutter-version: ${{ matrix.flutter-version }}
@@ -79,11 +82,11 @@ jobs:
       && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
         with:
           sparse-checkout: ${{ env.repo_sparse_checkout }}
           sparse-checkout-cone-mode: false
-      - uses: subosito/flutter-action@v2
+      - uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2
         with:
           channel: 'stable'
       - name: Prepare dependencies
@@ -93,6 +96,6 @@ jobs:
       - name: Test Coverage
         run: flutter test --coverage
       - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v6
+        uses: codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

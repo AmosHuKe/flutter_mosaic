@@ -9,6 +9,10 @@ on:
 
 jobs:
   contrib-readme-job:
+    if: github.repository == 'AmosHuKe/flutter_mosaic'
+    permissions:
+      contents: write
+      pull-requests: write
     strategy:
       max-parallel: 1
       matrix:
@@ -17,7 +21,7 @@ jobs:
     name: A job to automate contrib in readme
     steps:
       - name: Contribute List - ${{ matrix.readme_path }}
-        uses: akhilmhdh/contributors-readme-action@v2.3.11
+        uses: akhilmhdh/contributors-readme-action@83ea0b4f1ac928fbfe88b9e8460a932a528eb79f
         with:
           image_size: 100
           readme_path: ${{ matrix.readme_path }}
