@@ -84,3 +84,6 @@ coverage/
 
 # Github
 .github/
+
+# screenshots
+README/*

@@ -112,12 +112,12 @@ Mosaic(
 
 ```
 
-| Parameter                        | Type          | Default        | Description                             |  
-| ---                              | ---           | ---            | ---                                     |  
-| enabled                          | `bool`        | true           | Enable mosaic.                          |  
-| mosaicSize <sup>`required`</sup> | `Size`        | -              | Each mosaic block size.                 |  
-| sampleCount                      | `SampleCount` | SampleCount.s4 | Number of samples in each mosaic block. |  
-| child <sup>`required`</sup>      | `Widget`      | -              | Target widget (apply mosaic).           |  
+| Parameter                        | Type          | Default        | Description                             |
+| -------------------------------- | ------------- | -------------- | --------------------------------------- |
+| enabled                          | `bool`        | true           | Enable mosaic.                          |
+| mosaicSize <sup>`required`</sup> | `Size`        | -              | Each mosaic block size.                 |
+| sampleCount                      | `SampleCount` | SampleCount.s4 | Number of samples in each mosaic block. |
+| child <sup>`required`</sup>      | `Widget`      | -              | Target widget (apply mosaic).           |
 
 
 ## Contributors ✨  

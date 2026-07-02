@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.5
+
+- Remove screenshots to reduce the package size.
+
 ## 0.0.4
 
 - Bump `flutter_shaders` package from `0.1.2` to `0.1.3`.
