@@ -7,6 +7,9 @@ on:
     branches:
       - main
 
+# Disable permissions for all of the available permissions
+permissions: {}
+
 jobs:
   contrib-readme-job:
     if: github.repository == 'AmosHuKe/flutter_mosaic'
@@ -21,7 +24,7 @@ jobs:
     name: A job to automate contrib in readme
     steps:
       - name: Contribute List - ${{ matrix.readme_path }}
-        uses: akhilmhdh/contributors-readme-action@83ea0b4f1ac928fbfe88b9e8460a932a528eb79f
+        uses: akhilmhdh/contributors-readme-action@83ea0b4f1ac928fbfe88b9e8460a932a528eb79f #v2.3.11
         with:
           image_size: 100
           readme_path: ${{ matrix.readme_path }}

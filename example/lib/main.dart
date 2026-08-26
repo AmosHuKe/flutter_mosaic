@@ -1,5 +1,5 @@
 // Example: https://github.com/AmosHuKe/flutter_mosaic/tree/main/example
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:flutter_mosaic/flutter_mosaic.dart';
 
 void main() {
