@@ -1683,6 +1683,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 --------------------------------------------------------------------------------
 cupertino_ui
+flutter_shaders
 material_ui
 vector_math
 
@@ -4802,7 +4803,6 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 flutter_lints
-flutter_shaders
 
 Copyright 2013 The Flutter Authors. All rights reserved.
 
