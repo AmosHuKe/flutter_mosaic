@@ -48,7 +48,7 @@ _flutter.loader.load({
     canvasKitBaseUrl: '/flutter_mosaic/canvaskit/'
   },
   serviceWorkerSettings: {
-    serviceWorkerVersion: "672989750" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
+    serviceWorkerVersion: "1601374161" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
   },
   onEntrypointLoaded: async function (engineInitializer) {
     const appRunner = await engineInitializer.initializeEngine();
